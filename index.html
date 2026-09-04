@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="mr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>24 Tas Garmin News</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:Arial,sans-serif;
+}
+
+body{
+    background:#f4f4f4;
+    color:#222;
+}
+
+header{
+    background:#b40000;
+    color:white;
+    padding:18px 5%;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+}
+
+.logo{
+    font-size:28px;
+    font-weight:bold;
+}
+
+.logo span{
+    color:#ffd000;
+}
+
+nav{
+    background:#222;
+    padding:12px 5%;
+    overflow-x:auto;
+    white-space:nowrap;
+}
+
+nav a{
+    color:white;
+    text-decoration:none;
+    margin-right:22px;
+    font-weight:bold;
+}
+
+.breaking{
+    background:#ffd000;
+    padding:10px 5%;
+    font-weight:bold;
+}
+
+.container{
+    width:90%;
+    max-width:1200px;
+    margin:25px auto;
+}
+
+.section-title{
+    border-left:6px solid #b40000;
+    padding-left:10px;
+    margin-bottom:18px;
+    font-size:24px;
+}
+
+.news-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:20px;
+}
+
+.card{
+    background:white;
+    border-radius:8px;
+    overflow:hidden;
+    box-shadow:0 2px 8px #ccc;
+}
+
+.card img{
+    width:100%;
+    height:190px;
+    object-fit:cover;
+}
+
+.card-content{
+    padding:15px;
+}
+
+.card h3{
+    margin-bottom:10px;
+    font-size:20px;
+}
+
+.card p{
+    color:#666;
+    line-height:1.5;
+}
+
+.read{
+    display:inline-block;
+    margin-top:12px;
+    background:#b40000;
+    color:white;
+    padding:8px 14px;
+    text-decoration:none;
+    border-radius:5px;
+}
+
+footer{
+    margin-top:40px;
+    background:#222;
+    color:white;
+    text-align:center;
+    padding:25px;
+}
+
+@media(max-width:800px){
+    header{
+        display:block;
+        text-align:center;
+    }
+
+    .logo{
+        font-size:24px;
+    }
+
+    .news-grid{
+        grid-template-columns:1fr;
+    }
+
+    .card img{
+        height:220px;
+    }
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <div class="logo">
+        24 Tas <span>Garmin News</span>
+    </div>
+</header>
+
+<nav>
+    <a href="#">मुख्यपृष्ठ</a>
+    <a href="#">महाराष्ट्र</a>
+    <a href="#">भारत</a>
+    <a href="#">राजकारण</a>
+    <a href="#">शेतकरी</a>
+    <a href="#">क्रीडा</a>
+    <a href="#">मनोरंजन</a>
+    <a href="#">बातम्या</a>
+</nav>
+
+<div class="breaking">
+    🔴 BREAKING NEWS : 24 तासांच्या ताज्या बातम्यांसाठी आमच्यासोबत रहा...
+</div>
+
+<div class="container">
+
+<h2 class="section-title">📰 ताज्या बातम्या</h2>
+
+<div class="news-grid">
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1504711434969-e33886168f5c">
+<div class="card-content">
+<h3>महाराष्ट्रातील आजच्या महत्त्वाच्या बातम्या</h3>
+<p>आजच्या महाराष्ट्रातील ताज्या घडामोडी आणि महत्त्वाच्या बातम्या जाणून घ्या.</p>
+<a class="read" href="#">पूर्ण बातमी →</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1529107386315-e1a2ed48a620">
+<div class="card-content">
+<h3>राजकारणातील मोठी घडामोड</h3>
+<p>राजकीय क्षेत्रातील आजच्या महत्त्वाच्या घडामोडींची माहिती.</p>
+<a class="read" href="#">पूर्ण बातमी →</a>
+</div>
+</div>
+
+<div class="card">
+<img src="https://images.unsplash.com/photo-1540747913346-19e32dc3e97e">
+<div class="card-content">
+<h3>क्रीडा विश्वातील ताज्या बातम्या</h3>
+<p>क्रीडा क्षेत्रातील नवीन अपडेट्स आणि महत्त्वाच्या बातम्या.</p>
+<a class="read" href="#">पूर्ण बातमी →</a>
+</div>
+</div>
+
+</div>
+
+</div>
+
+<footer>
+    <h3>24 Tas Garmin News</h3>
+    <p>तुमच्या विश्वासाचं 24 तासांचं न्यूज नेटवर्क</p>
+    <br>
+    © 2026 24 Tas Garmin News. All Rights Reserved.
+</footer>
+
+</body>
+</html>
