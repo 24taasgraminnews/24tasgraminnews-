@@ -1,0 +1,1 @@
+function submitNews(){alert('News Tip Submitted!');}
